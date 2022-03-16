@@ -338,7 +338,7 @@ footer {
 /* ===========  media  =========== */
 /* ================================= */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1050px) {
     
     .home {
         margin-left: 15%;
@@ -432,7 +432,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 
     .container {
         margin: 0 0;
