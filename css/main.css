@@ -49,10 +49,10 @@
 
 
 /* ================================= */
-/* =========== MY STYLES =========== */
+/* ===========  DESKTOP  =========== */
 /* ================================= */
 
-
+/* =========== home =========== */
 body {
     background-color: rgb(83, 66, 88);
 }
@@ -79,4 +79,560 @@ nav {
     font-style: none;
     text-decoration: none;
 }
+
+header {
+    width: 100%;
+}
+
+.homehome {
+    position: relative;
+    display: inline-block;
+}
+
+.home {
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+
+.bannerimg {
+    width: 100%;
+    
+}
+
+.bannerimg1 {
+    display: none;
+}
+
+.bannerimg2 {
+    display: none;
+}
+
+.homeh1 {
+    font-size: 12em;
+    color: white;
+}
+
+.homep {
+    font-size: 2em;
+}
+
+.homebutton {
+    background-color: black;
+    font-size: 2.5em;
+    padding: 20px 50px;
+    color: white;
+    margin-top: 1em;
+    border-style: none;
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 2em;
+}
+
+.line {
+    padding-top: 2em;
+}
+
+.lineimg {
+    width: 100%;
+}
+
+.maintext {
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(198, 199, 204);
+    margin-top: 6em;
+    padding-bottom: 3em;
+}
+
+.mainh2 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.maintextp {
+    font-size: 3em;
+    width: 40%;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.mainboximg {
+    width: 90%;
+    padding: 2em;
+}
+
+
+.girlimg {
+    display: none;
+}
+
+.mainbox {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.mainbutton {
+    text-align: center;
+    border-style: none;
+}
+
+.mainbutton1 {
+    background-color: rgb(198, 199, 204);
+    font-size: 2.5em;
+    padding: 20px 50px;
+    color: rgb(70, 51, 73);
+    margin-top: 1em;
+    border-style: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    color: rgb(100, 100, 100);
+    text-align: left;
+    font-size: 1.5em;
+    margin-top: 5em;
+}
+
+.footerp1 {
+    padding-top: 2em;
+}
+
+/* =========== about us =========== */
+
+.aboutush1 {
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-top: 16%;
+    font-size: 12em;
+}
+
+.photoimg {
+    width: 100%;
+}
+
+.aboutusphoto {
+    margin-top: 10em;
+    display: grid;
+    grid-template-columns: 35% 60%;
+}
+
+.aboutartist {
+    color: rgb(198, 199, 204);
+    padding-left: 1em;
+}
+
+.aboutush2 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.uboutusp {
+    font-size: 3em;
+}
+
+.maintext {
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(198, 199, 204);
+    margin-top: 15em;
+    padding-bottom: 3em;
+}   
+
+.uboutusp1   {
+    font-size: 3em;
+    width: 40%;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.girlimg1 {
+    display: inline;
+}
+
+.aboutusboxesimg {
+    width: 90%;
+    padding: 2em;
+}
+
+.aboutusboxes {
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 33% 33% 33%;
+}
+
+/* =========== contact us =========== */
+
+.contactusall {
+    background-color: rgb(107, 126, 158);
+}
+
+.contactush1 {
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin-left: 24%;
+    margin-right: 22%;
+    margin-top: 16%;
+    font-size: 12em;
+}
+
+.contactusboxes {
+    color: rgb(198, 199, 204);
+    margin-top: 1em;
+    padding-bottom: 1em;
+    font-size: 2.5em;
+}
+
+.contactusboxes1 {
+    padding-top: 1em;
+}
+
+#fullname {
+    width: 50%;
+    height: 80px;
+}
+
+#email {
+    width: 50%;
+    height: 80px;
+}
+
+#message {
+    width: 100%;
+    height: 300px;
+}
+
+.formname {
+    padding-bottom: 0.5em;
+}
+
+.contactusboxesbutton {
+    background-color: rgb(70, 51, 73);
+    font-size: 1em;
+    padding: 20px 130px;
+    color: rgb(198, 199, 204);
+    margin-top: 1em;
+    border-style: none;
+    cursor: pointer;
+}
+.contactusboxesbutton1 {
+    text-align: center;
+}
+
+/* ================================= */
+/* ===========  media  =========== */
+/* ================================= */
+
+@media screen and (max-width: 1200px) {
+    
+    .home {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 10%;
+    }
+    
+    .homeh1 {
+        font-size: 10em;
+    }
+    
+    .homep {
+        font-size: 1.7em;
+    }
+    
+    .homebutton {
+        font-size: 1.5em;
+        padding: 20px 50px;
+        margin-top: 1em;
+    }
+
+    nav {
+        font-size: 1.4em;
+        padding-top: 10px;
+    }
+
+    .navbarboxes {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .maintext {
+        margin-top: 6em;
+        padding-bottom: 3em;
+    }
+    
+    .mainh2 {
+        font-size: 4em;
+    }
+    
+    .maintextp {
+        font-size: 2em;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
+
+    .aboutush1 {
+        margin-left: 16%;
+        margin-right: 16%;
+        margin-top: 16%;
+        font-size: 10em;
+    }
+
+    .aboutusphoto {
+        margin-top: 8em;
+    }
+    
+    .aboutartist {
+        padding-left: 1em;
+    }
+    
+    .aboutush2 {
+        font-size: 3em;
+    }
+    
+    .uboutusp {
+        font-size: 2em;
+    }
+    
+    .maintext {
+        margin-top: 8em;
+        padding-bottom: 3em;
+    }   
+    
+    .uboutusp1   {
+        font-size: 2em;
+        width: 40%;
+        text-align: center;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
+
+    .contactush1 {
+        margin-left: 12%;
+        margin-right: 10%;
+        margin-top: 16%;
+        font-size: 10em;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .container {
+        margin: 0 0;
+    }
+    
+    .homehome {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .home {
+        text-align: center;
+        position: absolute;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 50%;
+    }
+
+    .bannerimg {
+        display: none;
+    }
+
+    .bannerimg1 {
+        display: inline;
+        width: 100%;
+    }
+
+    .bannerimg2 {
+        display: none;
+    }
+
+    .homeh1 {
+        font-size: 13em;
+    }
+
+    .homep {
+        font-size: 2.5em;
+    }
+
+    .homebutton {
+        font-size: 2.5em;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30%;
+        padding-right: 30%;
+        width: 100%;
+        margin-top: 2em;
+    }
+
+    .maintext {
+        margin: 0;
+        margin-top: 6em;
+        padding-bottom: 3em;
+    }
+
+    .mainbox {
+        display: grid;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        grid-template-columns: 48% 48%;
+    }
+
+    .girlimg {
+        display: inline;
+    }
+    
+    .mainh2 {
+        font-size: 4em;
+    }
+    
+    .maintextp {
+        font-size: 2.5em;
+        width: auto;
+        text-align: center;
+    }
+
+
+        .bannerimg2 {
+            display: inline;
+            width: 100%;
+        }
+
+
+        
+.photoimg {
+    width: 90%;
+    margin: 5% 5%;
+    margin-top: 10%;
+
+}
+
+.aboutusphoto {
+    margin-top: 10em;
+    display: inline;
+}
+
+.aboutartist {
+    color: rgb(198, 199, 204);
+    padding-left: 1em;
+
+}
+
+.aboutush2 {
+    font-size: 5em;
+    font-weight: bold;
+    margin: 5% 5%;
+}
+
+.uboutusp {
+    font-size: 3em;
+}
+
+.maintext {
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(198, 199, 204);
+    margin-top: 8em;
+    padding-bottom: 3em;
+    font-size: 1.4em;
+}
+
+.aboutusboxes {
+    display: grid;
+    grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+    grid-template-columns: 48% 48%;
+}
+
+
+.contactusinside {
+    padding: 5%;
+}
+
+footer {
+    height: 400px;
+}
+
+.footerp1 {
+    padding-left: 5%;
+}
+
+.footerp2 {
+    padding-left: 5%;
+}
+
+#fullname {
+    width: 100%;
+}
+
+#email {
+    width: 100%;
+}
+
+#message {
+    width: 100%;
+}
+
+}
+
+/* /////////////////////////////////// */
+/* //////////////ANIMATION//////////// */
+/* /////////////////////////////////// */
+
+button {
+    transition-property: background;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.3s;
+}
+
+button {
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.3s;
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
+
+.mainboximg {
+    transform: scale(1);
+  transition: transform 1s;
+}
+
+.mainboximg:hover {
+    transform: scale(1.2);
+}
+
+.aboutusboxesimg {
+    transform: scale(1);
+  transition: transform 1s;
+}
+
+.aboutusboxesimg:hover {
+    transform: scale(1.2);
+}
+
+/* /////////////////////////////////// */
+/* //////////ADDITIONAL SIZES///////// */
+/* /////////////////////////////////// */
+
 
